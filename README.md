@@ -1,6 +1,6 @@
 ### ZeroWrt-Firmware-CI
 
-ZeroWrt 固件，由 ZeroDream 基于 VIKINGYFY 的 ImmortalWrt 源码进行开发
+ZeroWrt 固件，由 ZeroDream 基于 VIKINGYFY 的 ImmortalWrt 源码开发
 
 ### 固件核心介绍
 
@@ -12,7 +12,7 @@ ZeroWrt 固件的初始软件包非常精简，通过自研的虚拟算法，内
 
 本项目存在闭源的虚拟算法，Fork 的仓库在编译时不会添加部分配置
 
-但是固件本身非常精简，可以基于此进行二次开发
+但是固件本身非常精简，可以基于此项目进行二次开发
 
 ### 目录简要说明
 
