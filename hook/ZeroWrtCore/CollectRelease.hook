@@ -26,7 +26,7 @@ tar -czvf "$collectPath/$WRT_NAME-OpenwrtBin-$WRT_CONFIG-$ZD_DATE.tar.gz" \
   'bin'
 tar -czvf "$collectPath/$WRT_NAME-OpenwrtModule-$WRT_CONFIG-$ZD_DATE.tar.gz" \
   -C "$CI_TempPath" \
-  'PackFirmwareModule'
+  'FirmwareModule'
 find "$WRT_MainPath/bin/targets/" \
   -iregex ".*\(buildinfo\|json\|sha256sums\|packages\)$" \
   -exec rm -rf {} +
