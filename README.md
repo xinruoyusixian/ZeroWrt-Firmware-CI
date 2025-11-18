@@ -6,7 +6,17 @@ ZeroWrt 固件，由 ZeroDream 基于 VIKINGYFY 的 ImmortalWrt 源码开发
 
 ZeroWrt 固件的初始软件包非常精简，通过自研的虚拟算法，内置了大量 Kernel Modules
 
-能够安装绝大部分的官方 Package，极少出现内核模块缺失的情况
+能够安装大部分的官方 Package，极少出现内核模块缺失的情况
+
+### 软件包下载
+
+https://github.com/zero-dream/ZeroWrt-Package-CI
+
+### 参考的项目
+
+https://github.com/VIKINGYFY/OpenWRT-CI
+
+https://github.com/davidtall/OpenWRT-CI
 
 ### Fork 注意事项
 
@@ -31,13 +41,3 @@ script ------ 脚本目录
 storage ------ 储存目录
 
 openwrt ------ 数据覆盖目录
-
-### 软件包下载
-
-https://github.com/zero-dream/ZeroWrt-Package-CI
-
-### 参考的项目
-
-https://github.com/VIKINGYFY/OpenWRT-CI
-
-https://github.com/davidtall/OpenWRT-CI
