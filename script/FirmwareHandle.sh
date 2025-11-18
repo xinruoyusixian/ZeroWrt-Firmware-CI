@@ -91,6 +91,17 @@ echo ''
 
 # --------------------------------------------------
 
+# 删除 luci-app-attendedsysupgrade
+cd "$pkgPath"
+COLLECTIONS_FILE=$(find ../feeds/luci/collections/ -type f -name "Makefile")
+if [ -f "$COLLECTIONS_FILE" ]; then
+	sed -i "/attendedsysupgrade/d" "$COLLECTIONS_FILE"
+	echo 'Delete: luci-app-attendedsysupgrade'
+	echo ''
+fi
+
+# --------------------------------------------------
+
 # 设置 Argon 主题字体和颜色
 cd "$pkgPath"
 if [ -d *"luci-theme-argon"* ]; then
