@@ -7,3 +7,98 @@
 # CONFIG_PACKAGE_luci-app-*=y
 
 # --------------------------------------------------
+CONFIG_PACKAGE_luci-app-partexp=y 
+CONFIG_PACKAGE_luci-app-syscontrol=y 
+CONFIG_PACKAGE_luci-app-advancedplus=y
+
+
+# Libraries
+CONFIG_USE_APK=y  #APK关闭    启动istore 需要关闭
+
+#istore相关
+CONFIG_PACKAGE_luci-lib-ipkg=n #IPK包
+CONFIG_PACKAGE_taskd=n
+CONFIG_PACKAGE_luci-lib-xterm=n
+CONFIG_PACKAGE_luci-lib-taskd=n
+CONFIG_PACKAGE_luci-app-store=n
+#istore相关
+
+CONFIG_PACKAGE_luci-app-pbr=y #策略分流
+CONFIG_PACKAGE_libopenssl-legacy=y
+CONFIG_PACKAGE_qrencode=y
+CONFIG_PACKAGE_luci-app-smartdns=y
+CONFIG_PACKAGE_luci-app-sqm=y
+
+CONFIG_PACKAGE_rsyncd=y
+CONFIG_PACKAGE_rsync=y
+
+#CONFIG_PACKAGE_luci-app-statistics=y
+#CONFIG_PACKAGE_luci-app-watchcat=y
+#CONFIG_PACKAGE_luci-app-arpbind=y
+#CONFIG_PACKAGE_luci-app-3cat=y
+#CONFIG_PACKAGE_luci-app-wifischedule=y
+
+
+#new add
+CONFIG_PACKAGE_luci-app-taskplan=y
+CONFIG_PACKAGE_luci-app-nft-timecontrol=n #定时限速
+CONFIG_PACKAGE_luci-app-eqosplus=n       # 时间控制
+CONFIG_PACKAGE_luci-app-watchdog=y
+#CONFIG_PACKAGE_luci-app-unishare=y
+CONFIG_PACKAGE_luci-app-ddnsto=y
+
+
+#流量监控
+CONFIG_PACKAGE_luci-app-wrtbwmon=y
+CONFIG_PACKAGE_wrtbwmon=y
+
+#流量监控2
+#CONFIG_PACKAGE_luci-app-nlbwmon=y
+
+#bandix
+#timsaya/luci-app-bandix/
+#timsaya/openwrt-bandix
+CONFIG_PACKAGE_luci-app-bandix=y
+CONFIG_PACKAGE_bandix=y
+
+#内网穿透
+CONFIG_PACKAGE_luci-app-easytier=y
+
+#CONFIG_PACKAGE_luci-app-mosdns=y
+#CONFIG_PACKAGE_luci-app-banip=y
+
+#micropyhton 
+CONFIG_PACKAGE_micropython-lib=y
+
+
+
+
+
+#WOL 唤醒
+CONFIG_PACKAGE_luci-app-wolplus=y
+#CPU频率
+CONFIG_PACKAGE_luci-app-cpufreq=y
+
+#ram释放
+CONFIG_PACKAGE_luci-app-ramfree=y
+
+#diskman
+CONFIG_PACKAGE_luci-app-diskman=y
+
+CONFIG_PACKAGE_luci-app-filebrowser-go=y
+
+
+#文件管理
+CONFIG_PACKAGE_luci-app-filemanager=y
+#CONFIG_PACKAGE_luci-app-adguardhome=y
+
+#samba4
+CONFIG_PACKAGE_luci-app-samba4=y
+
+
+#增加插件
+CONFIG_PACKAGE_luci-app-autoreboot=y
+CONFIG_PACKAGE_luci-app-argon-config=y
+#CONFIG_PACKAGE_luci-app-tailscale=y
+CONFIG_PACKAGE_luci-app-ttyd=y
+CONFIG_PACKAGE_luci-app-upnp=y
