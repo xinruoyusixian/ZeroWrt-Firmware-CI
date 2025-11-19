@@ -49,13 +49,13 @@ jobs:
       # 默认主题
       WRT_THEME: argon
       # 默认主机名
-      WRT_HOST: ZeroWrt
+      WRT_HOST: ImmortalWRT
       # 默认 WiFi 名称
-      WRT_SSID: ZeroWrt
+      WRT_SSID: ImmortalWRT
       # 默认 WiFi 密码
       WRT_WORD: 12345678
       # 默认地址
-      WRT_IP: 192.168.10.1
+      WRT_IP: 192.168.100.1
       # 默认密码，仅供提示，修改无效
       WRT_PW: 无
 
